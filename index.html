@@ -82,9 +82,10 @@
 
   <!-- <link rel="stylesheet" href="./W3.CSS Template_files/font-awesome.min.css"> -->
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-  
-  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+
+
   <script type="text/javascript" charset="UTF-8" src="./W3.CSS Template_files/common.js"></script>
   <script type="text/javascript" charset="UTF-8" src="./W3.CSS Template_files/util.js"></script>
   <script type="text/javascript" charset="UTF-8" src="./W3.CSS Template_files/map.js"></script>
@@ -1785,15 +1786,14 @@
           <a href="#" class="w3-bar-item w3-button">Link</a>
         </div>
       </div>
-      <a href=".htm#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal"
-        title="Search">
+      <a href=".htm#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search">
         <i class="fa fa-search"></i>
       </a>
     </div>
 
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-        <i class="fas fa-bars"></i>
+      <i class="fas fa-bars"></i>
       <a href="#CompanyProfile" class="w3-bar-item w3-button">CompanyProfile</a>
       <a href="#Industrialdesign" class="w3-bar-item w3-button">Industrial design</a>
       <a href="#Environment" class="w3-bar-item w3-button">Environment</a>
@@ -1806,8 +1806,7 @@
   <div class="w3-display-container w3-animate-opacity">
     <img src="img/header.jpg" alt="boat" style="width:100%;">
     <div class="w3-container w3-display-bottomleft w3-margin-bottom">
-      <button onclick="window.location.href='http://upwork.com/'" class="w3-button w3-xlarge w3-theme w3-hover-teal"
-        title="Go To Slippers">ALL CLEAN Slippers</button>
+      <button onclick="window.location.href='http://upwork.com/'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To Slippers">ALL CLEAN Slippers</button>
     </div>
   </div>
 
@@ -2014,7 +2013,7 @@
   </div>
 
   <!-- Chart Container -->
-  <div class="w3-container w3-padding-64 w3-theme-l5" id="Environment">
+  <div class="chartdiv w3-container w3-padding-64 w3-theme-l5" id="Environment">
     <img src="img/chart.png" alt="">
   </div>
 
@@ -2039,41 +2038,38 @@
   <!-- Diplomas -->
   <div>
     <div class="diplomas">
-     <div class="diplomarow1">
-       <div>
-         <img src="img/schemaslip2.png" alt="slipper schema" class="r1img">
-       </div>
-       <div>
-         <img src="img/diploma1.png" alt="diploma1" class="r1img">
-       </div>
-       <div>
-          Promotional Video
-          https://youtu.be/O8pnO
-          a9RJHc
-          (click the hyperlink)
-       </div>
-
-     </div>
-     <div class="diplomarow2">
-       <div>
-         <img src="img/diploma2.png" alt="diplomas" class="r2img">
-       </div>
-       <div>
-         <img src="img/diploma3.png" alt="diploma last" class="r2img">
-       </div>
-
-      <div class="r2img">
-        <p>取得台灣專利認證</p>
-        <br>
-        <p>取得國際ITS及SGS</p>
-        <p>國際認證</p>
-        <p>無毒</p>
-        <p style="text-align: center">環保</p>
-        <p style="text-align: right">善待地球</p>
+      <div class="diplomarow1">
+        <div>
+          <img src="img/schemaslip2.png" alt="slipper schema" class="r1img">
+        </div>
+        <div>
+          <img src="img/diploma1.png" alt="diploma1" class="r1img">
+        </div>
+        <div>
+          Promotional Video https://youtu.be/O8pnO a9RJHc (click the hyperlink)
+        </div>
 
       </div>
+      <div class="diplomarow2">
+        <div>
+          <img src="img/diploma2.png" alt="diplomas" class="r2img">
+        </div>
+        <div>
+          <img src="img/diploma3.png" alt="diploma last" class="r2img">
+        </div>
 
-     </div>
+        <div class="r2img">
+          <p>取得台灣專利認證</p>
+          <br>
+          <p>取得國際ITS及SGS</p>
+          <p>國際認證</p>
+          <p>無毒</p>
+          <p style="text-align: center">環保</p>
+          <p style="text-align: right">善待地球</p>
+
+        </div>
+
+      </div>
     </div>
   </div>
 
@@ -2081,14 +2077,54 @@
   <!-- box table -->
   <div class="boxtable">
     <h1>
-        各尺碼裝箱數:
+      各尺碼裝箱數:
     </h1>
     <h2 style="color: red;">(CARTON SPEC 1.2KG L/W/H 50.5CM/40.5CM/41.5CM)</h2>
-    <table>
-      <th>
-        
-      </th>
-      
+    <table class="carton-table">
+      <tr>
+        <th style="color: blue">透氣排水休閒鞋 Packling List</th>
+        <th style="color: green">透氣排水夾腳拖 Packling List</th>
+      </tr>
+      <tr>
+        <td>37號/48雙=7.68kg (N.W.) 8.88kg(G.W.) CBM0.085 /CUFT 3</td>
+        <td>37號/38雙=5.85kg 7.05kg(G.W.) CBM0.085 /CUFT 3</td>
+      </tr>
+      <tr>
+        <td>38號/48雙=7.92kg (N.W.) 9.12kg(G.W.) CBM0.085 /CUFT 3</td>
+        <td>38號/38雙=5.76kg 6.96kg(G.W.) CBM0.085 /CUFT 3</td>
+      </tr>
+      <tr>
+        <td>39號/44雙=8.36kg (N.W.) 9.56kg(G.W.) CBM0.085/ CUFT 3</td>
+        <td>39號/34雙=5.95kg 7.15kg(G.W.) CBM0.085 /CUFT 3</td>
+      </tr>
+      <tr>
+        <td>40號/44雙=9.46kg (N.W.)10.66kg(G.W.)CBM0.085 /CUFT 3</td>
+        <td>40號/30雙=6.08kg 7.28kg(G.W.) CBM0.085 /CUFT 3</td>
+      </tr>
+      <tr>
+        <td>41號/36雙=8.28kg (N.W.) 9.48kg(G.W.CBM0.085 /CUFT 3</td>
+        <td>41號/30雙=6.45kg 7.65kg(G.W.) CBM0.085 /CUFT 3</td>
+      </tr>
+      <tr>
+        <td>42號/36雙=8.82kg (N.W.) 10.02kg(G.W.)CBM0.085 /CUFT 3</td>
+        <td>42號/28雙=6.58kg 7.78kg(G.W.) CBM0.085 /CUFT 3</td>
+      </tr>
+      <tr>
+        <td>43號/32雙=8.32kg (N.W.) 9.52kg(G.W.) CBM0.085 /CUFT 3</td>
+        <td>43號/28雙=5.39kg 6.59kg(G.W.) CBM0.085 /CUFT 3</td>
+      </tr>
+      <tr>
+        <td>44號/32雙=8.96kg (N.W.) 10.16kg(G.W.) CBM0.085 /CUFT 3</td>
+        <td>44號/25雙=5.72kg 6.92kg(G.W.) CBM0.085 /CUFT 3</td>
+      </tr>
+      <tr>
+        <td>
+          <img src="img/tablebreeze1.png" alt="table breeze">
+        </td>
+        <td>
+          <img src="img/tablepink2.png" alt="table pink">
+        </td>
+      </tr>
     </table>
 
   </div>

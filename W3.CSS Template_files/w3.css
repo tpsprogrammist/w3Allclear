@@ -1,5 +1,21 @@
 ﻿/* my code css */
+.boxtable{
+    width: 80%;
+    margin: 0 auto;
+    border: 1;
+}
+.carton-table{
+    border: 1px solid black;
+}
+.chartdiv{
+    width: 80%;
+    margin: 0 auto;
+}
 
+.diplomas{
+    width: 80%;
+    margin: 0 auto;
+}
 .diplomarow1
 {
     display: flex;
